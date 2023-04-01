@@ -1,0 +1,93 @@
+[
+    {
+      "titulo": "El rey león",
+      "año": 1994,
+      "genero": "Animación",
+      "director": "Rob Minkoff",
+      "recaudacion": 987.5
+    },
+    {
+      "titulo": "Titanic",
+      "año": 1997,
+      "genero": "Drama",
+      "director": "James Cameron",
+      "recaudacion": 2207.6
+    },
+    {
+      "titulo": "Los increíbles 2",
+      "año": 2018,
+      "genero": "Animación",
+      "director": "Brad Bird",
+      "recaudacion": 1242.8
+    },
+    {
+      "titulo": "El señor de los anillos: El retorno del rey",
+      "año": 2003,
+      "genero": "Fantasía",
+      "director": "Peter Jackson",
+      "recaudacion": 1147.6
+    },
+    {
+      "titulo": "Avatar",
+      "año": 2009,
+      "genero": "Ciencia ficción",
+      "director": "James Cameron",
+      "recaudacion": 2784.8
+    },
+    {
+      "titulo": "Jurassic Park",
+      "año": 1993,
+      "genero": "Ciencia ficción",
+      "director": "Steven Spielberg",
+      "recaudacion": 1076.7
+    },
+    {
+      "titulo": "Star Wars: Episodio I - La amenaza fantasma",
+      "año": 1999,
+      "genero": "Ciencia ficción",
+      "director": "George Lucas",
+      "recaudacion": 1027
+    },
+    {
+      "titulo": "Frozen",
+      "año": 2013,
+      "genero": "Animación",
+      "director": "Chris Buck",
+      "recaudacion": 1282.7
+    },
+    {
+      "titulo": "Forrest Gump",
+      "año": 1994,
+      "genero": "Drama",
+      "director": "Robert Zemeckis",
+      "recaudacion": 677.4
+    },
+    {
+      "titulo": "Los vengadores",
+      "año": 2012,
+      "genero": "Acción",
+      "director": "Joss Whedon",
+      "recaudacion": 1518.8
+    },
+    {
+      "titulo": "Toy Story 3",
+      "año": 2010,
+      "genero": "Animación",
+      "director": "Lee Unkrich",
+      "recaudacion": 1066.9
+    },
+    {
+      "titulo": "El caballero de la noche",
+      "año": 2008,
+      "genero": "Acción",
+      "director": "Christopher Nolan",
+      "recaudacion": 1004.9
+    },
+    {
+      "titulo": "El sexto sentido",
+      "año": 1999,
+      "genero": "Drama",
+      "director": "M. Night Shyamalan",
+      "recaudacion": 672.8
+    }
+  ]
