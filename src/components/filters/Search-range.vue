@@ -4,6 +4,7 @@ import { ref, watch } from "vue";
 const props = defineProps({
   minRange: Number,
   maxRange: Number,
+  hint: String,
 });
 
 const range = ref({
@@ -20,13 +21,17 @@ watch(range, (newRange) => {
 
 <template>
   <div>
-    <q-range
-      v-model="range"
-      :min="props.minRange"
-      :max="props.maxRange"
-      label-always
-      markers
-      :debaunce="400"
-    />
+    <q-field filled :hint="props.hint" :dense="false">
+      <template v-slot:control>
+        <q-range
+          v-model="range"
+          :min="props.minRange"
+          :max="props.maxRange"
+          label-always
+          markers
+          :debaunce="400"
+        />
+      </template>
+    </q-field>
   </div>
 </template>

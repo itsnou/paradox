@@ -20,7 +20,7 @@ const onGetAll = () => {
   <section class="q-mx-lg q-my-lg search">
     <SearchInput
       @on-input-change="onInputChange"
-      @restore="onGetAll()"
+      @restore="onGetAll"
       placeHolder="Buscar pelicula"
       hint=""
     />
@@ -49,6 +49,13 @@ const onGetAll = () => {
 }
 
 @media (min-width: 720px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+}
+@media (min-width: 1024px) {
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

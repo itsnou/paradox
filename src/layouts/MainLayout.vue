@@ -82,6 +82,7 @@ const resetChange = () => {
           class="q-ml-lg q-mr-lg q-mt-lg"
           @change-select="changeRange"
           @reset-range="resetChange"
+          hint="Rango de recaudación"
           :minRange="minRange"
           :maxRange="maxRange"
         />
