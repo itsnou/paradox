@@ -38,7 +38,7 @@ const onGetAll = () => {
 <style lang="scss" scoped>
 .search {
   .buscador {
-    width: 2000px;
+    width: 100%;
   }
 }
 .cards {
